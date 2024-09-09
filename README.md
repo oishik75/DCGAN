@@ -29,7 +29,7 @@ Install the required libraries
         --features_g FEATURES_G(INT)                                         Base number of feature maps in generator. Each conv_transpose layer has a multiple of FEATURES_G feature maps.
 
 
-    Example Usage:
+Example Usage:
 
     python train.py \
         --dataset_name MNIST \
