@@ -78,8 +78,10 @@ Dataset - https://yann.lecun.com/exdb/mnist
 
 #### FashionMNIST
 Dataset - https://github.com/zalandoresearch/fashion-mnist
+
 ![FashionMNIST Generated Images](outputs/FashionMNIST/generated.jpg)
 
 #### Pokemon
 Dataset - https://github.com/rileynwong/pokemon-images-dataset-by-type/tree/master
+
 ![Pokemon Generated Images](outputs/Pokemon/generated.jpg)
