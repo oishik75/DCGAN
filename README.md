@@ -55,6 +55,7 @@ Example Usage:
         --n_images N_IMAGES(INT)                     No. of images to generate.
         --save_path directory_path                   Path + filename for storing generated image.
         --no_cuda                                    Flag for not using gpu.
+        --image_channels IMG_CHANNELS(INT)                                   No of channels in the image. 1 - Grayscale 3 - Colour
         --z_dim Z_DIM(INT)                           Length of the noise vector to be passed as input to the generator.
         --features_g FEATURES_G(INT)                 Base number of feature maps in generator. Each conv_transpose layer has a multiple of FEATURES_G feature maps.
 
@@ -63,8 +64,22 @@ Example Usage:
 Example Usage:
 
     python generate_images.py \
-        --model models/checkpoint-15 \
+        --model models/checkpoint_9.pt \
         --n_images 32 \
         --save_path outputs/MNIST/generated-jpg
         --z_dim 100 \
         --features_g 64
+
+### Results
+#### MNIST
+Dataset - https://yann.lecun.com/exdb/mnist
+
+![MNIST Generated Images](outputs/MNIST/generated.jpg)
+
+#### FashionMNIST
+Dataset - https://github.com/zalandoresearch/fashion-mnist
+![FashionMNIST Generated Images](outputs/FashionMNIST/generated.jpg)
+
+#### Pokemon
+Dataset - https://github.com/rileynwong/pokemon-images-dataset-by-type/tree/master
+![Pokemon Generated Images](outputs/Pokemon/generated.jpg)
