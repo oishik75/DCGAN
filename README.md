@@ -15,7 +15,7 @@ Install the required libraries
     Options:
         --dataset_name_name dataset                                          Name of the dataset. Choices - [MNIST, FashionMNIST].
         --data_path local_dataset_directory                                  Local path containing images to be trained on. Either dataset_name or dataset_path should be provided.
-        --experiment_name EXP_NAME                                           Experiment name for directory naming\.
+        --exp_name EXP_NAME                                                  Experiment name for directory naming\.
         --no_cuda                                                            Flag for not using gpu.
         --save_dir directory_path                                            Directory for storing model checkpoints.
         --logs_dir directory_path                                            Directory for storing logs (to be used for tensorboard visualization).
